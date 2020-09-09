@@ -1,0 +1,56 @@
+program prog
+declare a,b,x,y,p enddeclare
+
+procedure proc( in k, inout y)
+    declare k1,l,g,aaaaaa,x enddeclare
+    function f()
+        declare a,b enddeclare
+        return a
+    endfunction
+    function func(in k)
+        declare o,a,x,n,t,c enddeclare
+        while x<4
+            aaaaaa:=0;
+            a :=1;
+            k:=4+n;
+            x:=k
+        endwhile;
+        a:= 2+4/g-k*7;
+        repeat endrepeat;
+        if a+3*f(in t) = k  and [x<0] or not [ l>=0] and true  or false then endif;
+
+        if a>b then b:=90 else c:=100 endif;
+        forcase
+            when a > b : a:= 2+4/g-k*7;
+            when a >= b : b:=3+4
+        endforcase;
+
+        switch
+            k
+            case l : o:=9
+            case k : o:=10
+        endswitch;
+        return x
+    endfunction
+    input x;
+    print x+2;
+    repeat
+        if x > 2 then exit; p:=0 else x:=3 endif;
+        while x<2
+            x:=x+1;
+            repeat
+                exit
+            endrepeat;
+            k:=0
+        endwhile
+    endrepeat
+
+endprocedure
+ function func(in k)
+        declare o,a,x,n,t,c enddeclare
+        return x
+endfunction
+call proc(in x, inout y);
+input x;
+a:=0
+endprogram /*asdfasdfdsf sdf*/
